@@ -18,7 +18,8 @@ public class SetupApp {
 
         DesiredCapabilities capabilities= new DesiredCapabilities();
 
-        capabilities.setCapability(MobileCapabilityType.UDID, "343b06f4");
+        capabilities.setCapability(MobileCapabilityType.UDID, "343b06f4"); // modificar
+        //Instale
         capabilities.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "com.google.android.calculator");
         capabilities.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "com.android.calculator2.Calculator");
         capabilities.setCapability(MobileCapabilityType.NO_RESET, false);
